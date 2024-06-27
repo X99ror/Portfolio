@@ -1,0 +1,49 @@
+.hero-img{
+    width:100%;
+    height: 100vh;
+    position: relative;
+    background-image: url("../assets/intro.jpg");
+    background-position: center-top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    overflow-x: hidden;
+}
+.hero-img::before{
+    content: "";
+    position: absolute;
+    
+    
+
+}
+.hero-img h1{
+    font-size: 2.4rem;
+
+}
+.hero-img p{
+    font-size: 1.4rem;
+    text-align: center;
+
+}
+
+.heading{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:640px){
+
+    .hero-img h1{
+        font-size: 2rem;
+        overflow-x: hidden;
+    
+    }
+    
+    
+}

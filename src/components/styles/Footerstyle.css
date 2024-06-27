@@ -1,0 +1,46 @@
+.footer{
+    width: 100%;
+    padding: 6rem 0;
+}
+.footer-container{
+    max-width: 100vw;
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap:20px;
+}
+.left{
+    height: 100%;
+    max-width: 100%;
+    display:flex;
+    flex-direction: column ;
+    margin-left: 60px;
+}
+.contact{
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+.contact p{
+    line-height: 30px;
+}
+.right{
+    height: 100%;
+    max-width: 100%;
+    display:flex;
+    flex-direction: column ;
+}
+.social{
+    padding-top: 2rem;
+    display: flex;
+}
+p{
+    font-size: 1.2rem;
+}
+
+@media  screen and (max-width) {
+    .footer-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    
+}
